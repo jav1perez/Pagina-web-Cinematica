@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinemática</title>
+    <style>
+        /* Estilos opcionales para ajustar la apariencia de la imagen de portada */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .cover-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover; /* Para asegurar que la imagen se ajuste al contenedor */
+        }
+    </style>
+</head>
+<body>
+    <!-- La imagen de portada -->
+    <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\Imagen1.png"  > alt="Imagen de portada" class="cover-image">
+</body>
+   <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cinemática</h1>
+        </header>
+        <section>
+           
+            <p>Integrantes:</p>
+            <ul>
+                <li>Jaime Eduardo Salinas Aguilar</li>
+                <li>Javier Antonio Perez Barrueta</li>
+                <li>Bruno Rafael Villegas Torres</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Concepto</h2>
+            <p>La cinemática es la rama de la física que estudia el movimiento de los cuerpos sin tener en cuenta las causas que lo producen, como las fuerzas.</p>
+        </section>
+        <section>
+            <h2>Tipos de movimiento</h2>
+            <ul>
+                <li>Movimiento rectilíneo uniforme (MRU)</li>
+                <li>Movimiento rectilíneo uniformemente acelerado (MRUA)</li>
+                <li>Movimiento circular uniforme (MCU)</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Fórmulas</h2>
+            <p>Algunas fórmulas importantes en cinemática incluyen:</p>
+            <ul>
+                <li>Velocidad media: \( v_m = \frac{{\Delta x}}{{\Delta t}} \)</li>
+                <li>Aceleración: \( a = \frac{{\Delta v}}{{\Delta t}} \)</li>
+                <li>Distancia recorrida: \( d = v_i t + \frac{1}{2} a t^2 \)</li>
+            </ul>
+        </section>
+        <footer>
+            <p>© 2024 Cinemática.com</p>
+        </footer>
+    </div>
+</body>
+</html>

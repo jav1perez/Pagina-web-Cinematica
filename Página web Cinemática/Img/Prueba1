@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinemática y Dinámica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Conceptos básicos de Cinemática y Dinámica</h1>
+    <h2>Cinemática</h2>
+    <p>La cinemática es la rama de la física que estudia el movimiento de los cuerpos sin considerar las causas que lo producen.</p>
+    <h3>Conceptos fundamentales</h3>
+    <ul>
+        <li><strong>Desplazamiento:</strong> Cambio de posición de un objeto en un intervalo de tiempo.</li>
+        <li><strong>Rapidez promedio:</strong> Magnitud del desplazamiento dividido por el tiempo transcurrido.</li>
+        <li><strong>Velocidad promedio:</strong> Desplazamiento dividido por el tiempo transcurrido, considerando dirección.</li>
+        <li><strong>Movimiento rectilíneo uniforme (MRU):</strong> Movimiento en línea recta con velocidad constante.</li>
+        <li><strong>Movimiento rectilíneo uniformemente acelerado (MRUA):</strong> Movimiento en línea recta con aceleración constante.</li>
+        <li><strong>Pendiente:</strong> Razón entre la altura y la base de un triángulo rectángulo.</li>
+        <li><strong>Velocidad instantánea:</strong> Velocidad de un objeto en un momento específico.</li>
+        <li><strong>Tiro parabólico:</strong> Movimiento de un objeto lanzado en ángulo respecto a la horizontal.</li>
+    </ul>
+    <h2>Dinámica</h2>
+    <p>La dinámica estudia las fuerzas y los efectos que producen en el movimiento de los cuerpos.</p>
+    <h3>Conceptos fundamentales</h3>
+    <ul>
+        <li><strong>Leyes de Newton:</strong> Principios fundamentales que describen la relación entre las fuerzas y el movimiento de los cuerpos.</li>
+        <li><strong>Rozamiento:</strong> Fuerza que se opone al movimiento relativo entre dos superficies en contacto.</li>
+        <li><strong>Tipos de fuerzas:</strong> Incluyen fuerzas gravitacionales, eléctricas, magnéticas, de fricción, etc.</li>
+        <li><strong>Ley gravitacional:</strong> Ley que describe la fuerza de atracción entre dos objetos masivos.</li>
+        <li><strong>Cantidad de movimiento:</strong> Producto de la masa y la velocidad de un objeto.</li>
+        <li><strong>Colisión:</strong> Interacción entre dos o más objetos que resulta en cambios en sus velocidades.</li>
+        <li><strong>Impulso:</strong> Cambio en la cantidad de movimiento de un objeto debido a una fuerza aplicada durante un intervalo de tiempo.</li>
+        <li><strong>Rotación:</strong> Movimiento de un objeto alrededor de un eje.</li>
+    </ul>
+    <h2>Referencias</h2>
+    <p>Aquí algunos libros y recursos recomendados para profundizar en el estudio de la cinemática y la dinámica:</p>
+</body>
+</html>

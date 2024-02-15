@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cinemática</title>
+</head>
+<body>
+    <h1>Preoyecto de c++ </h1>
+    <p>Integrantes:</p>
+    <p>Javier Antonio Pérez Barrueta</p>
+    <p>Jaime Eduardo Salinas Aguilar</p>
+    <p>Bruno Rafael Villegas Torres</p>
+    <img src="Imagen1.png" alt="Mi imagen">
+    <p>Aquí puedes agregar más información sobre ti o tu proyecto.</p>
+    <ul>
+        <li>Información 1</li>
+        <li>Información 2</li>
+        <li>Información 3</li>
+    </ul>
+    <p>¡Explora y diviértete creando tu sitio web!</p>
+</body>
+</html>

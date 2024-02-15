@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinemática</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        header {
+            background-color: #9d121d;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #000000;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+        }
+        .content {
+            max-width: 1000px;
+            margin: auto;
+        }
+        .img-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .img-container img {
+            max-width: 50%;
+            height: auto;
+        }
+        .user-input {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CINEMÁTICA</h1>
+    </header>
+    <nav>
+        <a href="#antecedentes">Antecedentes</a>
+        <a href="#introduccion">Introducción</a>
+        <a href="#objetivo">Objetivo</a>
+        <a href="#desplazamiento">Desplazamiento</a>
+        <a href="#vectores">Vectores</a>
+        <a href="#velocidad">Velocidad</a>
+        <a href="#rapidez-promedio">Rapidez promedio</a>
+        <a href="#aceleracion">Aceleracion</a>
+        <a href="#mru">MRU/MRUA</a>
+        <a href="#pendiente">Pendiente</a>
+        <a href="#velocidad-instantanea">Velocidad instantánea</a>
+        <a href="#tiro-parabolico">Tiro parabolico</a>
+        <a href="#leyes-de-newton">Leyes de Newton</a>
+        <a href="#rozamiento">Rozamiento</a>
+        <a href="#fuerzas">Fuerzas</a>
+        <a href="#ley-gravitacional">Ley gravitacional</a>
+        <a href="#cantidad-movimiento">Cantidad de Movimiento</a>
+        <a href="#colision">Colisiones</a>
+        <a href="#impulso">Impulso</a>
+        <a href="#rotacion">Rotacion</a>
+        <a href="#traslacion">Traslacion</a>
+        <a href="#bibliografia">Bibliografía</a>
+       
+    </nav>
+    <div class="content">
+        <section id="inicio">
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\cedvanew.jpg" alt="Imagen de Inicio" style="float: right;">
+            </div>
+        <section id="Integrantes:">
+            <h2>Autores</h2>
+            <p>Jaime Eduardo Salinas Aguilar</p>
+            <p>Javier Antonio Perez Barrueta</p>
+            <p>Bruno Rafael Villegas Torres</p>
+        </section>
+        <section id="antecedentes">
+            <h2>Antecedentes</h2>
+            <p>Los primeros estudios sobre cinemática se remontan a la antigua Grecia, con filósofos como Aristóteles y Arquímedes. La cinemática moderna se desarrolló en el siglo XVII con las contribuciones de científicos como Galileo Galilei y Sir Isaac Newton.</p>
+            <div class="img-container">
+              <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\Antecedentes de la cinemática.jpg" alt="Antecedentes de la cinemática">
+            </div>
+        </section>
+        <section id="introduccion">
+            <h2>Introducción</h2>
+            <p>La cinemática es la rama de la física que se encarga del estudio del movimiento de los objetos sin considerar las causas que lo provocan. Se enfoca en conceptos como el desplazamiento, la velocidad, la aceleración, entre otros.</p>
+        </section>
+        <section id="objetivo">
+            <h2>Objetivo</h2>
+            <p>El objetivo de la cinemática es describir y analizar el movimiento de los objetos en términos de posición, velocidad y aceleración. Esto nos permite entender y predecir cómo se mueven los objetos en el espacio y en el tiempo.</p>
+        </section>
+        <button onclick="goTop()" id="goTopBtn" title="Go to top">Ir arriba</button>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+    
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("goTopBtn").style.display = "block";
+        } else {
+          document.getElementById("goTopBtn").style.display = "none";
+        }
+      }
+    
+      function goTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+        <section id="desplazamiento">
+            <h2>Desplazamiento</h2>
+            <p>En física, el movimiento se refiere al cambio de posición de un objeto en relación con su entorno en función del tiempo. Es un concepto fundamental para comprender la naturaleza del universo que nos rodea. El movimiento puede describirse a través de varios parámetros, incluyendo posición, velocidad y aceleración.</p>
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\Imagen2.jpg" alt="Desplazamiento">
+            </div>
+        </section>
+        <section id="vectores">
+            <h2>Vectores</h2>
+            <p>Un vector es un segmento de una línea recta. Puede representarse en un plano cartesiano mediante un conjunto de coordenadas bidimensional (x,y), o en uno tridimensional (x,y,z). Los vectores se representan típicamente mediante una flecha dibujada por encima del símbolo empleado.</p>
+            <button onclick="goTop()" id="goTopBtn" title="Go to top">Ir arriba</button>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+    
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("goTopBtn").style.display = "block";
+        } else {
+          document.getElementById("goTopBtn").style.display = "none";
+        }
+      }
+    
+      function goTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+            <h2 style="font-size: medium;">Características de un vector:</h2> 
+            <p>Dirección. Definida como la recta sobre la cual se traza el vector, continuada infinitamente en el espacio. 
+                Módulo o amplitud. La longitud gráfica que equivale, dentro de un plano, a la magnitud del vector expresada numéricamente. 
+                Sentido. Representado por la punta de la flecha que gráficamente representa al vector, indica el lugar geométrico hacia el cual se dirige el vector. 
+                Punto de aplicación. Correspondiente al lugar o punto geométrico en donde inicia el vector gráficamente. 
+                Nombre o denominación. Representado mediante una letra que acompaña al vector gráficamente representado, y que coincide con la magnitud que expresa o con la suma de los puntos de inicio y fin de su valor.
+                </p>
+                
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\posicion-e1490212839722.jpg" alt="Vectores">
+            </div>
+            <button onclick="goTop()" id="goTopBtn" title="Go to top">Ir arriba</button>
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("goTopBtn").style.display = "block";
+    } else {
+      document.getElementById("goTopBtn").style.display = "none";
+    }
+  }
+
+  function goTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+            <h2 style="font-size: large;"> Tipos de Vectores:</h2>
+            <p>Vector nulo: Es un vector el cual vuelve a su punto de origen. O que su valor es 0</p>
+            <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\v nulo.jpg">
+            <p>Vector unitario: Un vector unitario es un vector que tiene una magnitud (longitud) de exactamente 1. En otras palabras, es un vector normalizado que mantiene la dirección de un vector original, pero tiene una longitud de 1 unidad. Los vectores unitarios son útiles en diversas aplicaciones, especialmente en la descripción de direcciones o movimientos en geometría y física.</p>
+            <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\v uni.jpg">
+            <p>Vector de puntos fijos: Es un vector que tiene como inicio fuera del centro por lo tanto hay suma de fuerzas </p>
+            <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\v puntos.jpg">
+            <button onclick="goTop()" id="goTopBtn" title="Go to top">Ir arriba</button>
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("goTopBtn").style.display = "block";
+    } else {
+      document.getElementById("goTopBtn").style.display = "none";
+    }
+  }
+
+  function goTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+            <p>Vectores paralelos: Son aquellos que se están cerca pero nunca se tocan y tienen el mismo sentido </p>
+            <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\v paral.jpg" >
+            <p>Vectores opuestos: Tienen la misma dirección y magnitud, pero diferente sentido</p>
+            <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\v op.jpg" >
+            <p>Vectores concurrentes: Un conjunto de vectores es "concurrente" si todos ellos se intersectan o se originan desde un mismo punto en el espacio. En otras palabras, varios vectores son concurrentes si comparten un punto común llamado "punto de concurrencia" o "punto de origen".</p>
+            <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\v conc.jpg" >
+            <button onclick="goTop()" id="goTopBtn" title="Go to top">Ir arriba</button>
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("goTopBtn").style.display = "block";
+    } else {
+      document.getElementById("goTopBtn").style.display = "none";
+    }
+  }
+
+  function goTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+            <p>Vectores libres: Los vectores libres son objetos matemáticos utilizados en álgebra lineal y geometría para representar magnitudes que tienen tanto magnitud como dirección. La característica distintiva de un vector libre es que puede moverse libremente en el espacio sin cambiar sus propiedades fundamentales, es decir, no está ligado a un punto específico del espacio.</p>
+            <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\v libres.jpg" >
+        <section id="velocidad">
+            <h2>Velocidad</h2>
+            <p>La velocidad es la tasa de cambio del desplazamiento de un objeto en movimiento. Se calcula como la distancia recorrida dividida por el tiempo transcurrido.</p>
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\R.jpg" alt="Velocidad">
+            </div>
+        </section>
+        <section id="rapidez-promedio">
+            <h2>Rapidez Promedio</h2>
+            <p>La rapidez promedio es la distancia total recorrida dividida por el tiempo total transcurrido. Es un escalar que indica la magnitud del desplazamiento promedio por unidad de tiempo.</p>
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\rap prom.jpg">
+                <button onclick="goTop()" id="goTopBtn" title="Go to top">Ir arriba</button>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+    
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("goTopBtn").style.display = "block";
+        } else {
+          document.getElementById("goTopBtn").style.display = "none";
+        }
+      }
+    
+      function goTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+            </div>
+        </section>
+        <section id="aceleracion">
+            <h2>Aceleración</h2>
+            <p>Estas fuerzas pueden producir aceleraciones que hagan que los objetos aumenten sus velocidades o las disminuyan. es indispensable definir direcciones. Por ejemplo, definimos el este como la dirección positiva de movimiento, entonces una aceleración positiva siempre implica un aumento de velocidad. Sin embargo, una aceleración negativa puede indicar una disminución de velocidad en la dirección este, o bien un aumento de en la dirección oeste. </p>
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\acel.jpg" alt="Aceleración">
+                <button onclick="goTop()" id="goTopBtn" title="Go to top">Ir arriba</button>
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("goTopBtn").style.display = "block";
+    } else {
+      document.getElementById("goTopBtn").style.display = "none";
+    }
+  }
+
+  function goTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+            </div>
+        </section>
+        <section id="mru">
+            <h2>Movimiento Rectilíneo Uniforme (MRU)</h2>
+            <p>El MRU ES el movimiento en el cual un objeto se desplaza en línea recta, en una sola dirección, recorriendo distancias iguales en el mismo intervalo de tiempo, manteniendo en todo su movimiento una velocidad constante y sin aceleración. Recuerda que la velocidad es un vector, entonces, al ser constante, no varía ni su magnitud, ni su dirección de movimiento</p>
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\mru.jpg" alt="MRU">
+            </div>
+
+        </section>
+        <section id="mrua">
+            <h2>Movimiento Rectilíneo Uniformemente Acelerado (MRUA)</h2>
+            <p>El movimiento rectilíneo uniformemente acelerado (MRUA) es un concepto de la cinemática, la rama de la física que estudia el movimiento de los objetos. En el MRUA, un objeto se desplaza a lo largo de una línea recta con una aceleración constante. </p>
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\mrua.jpg" alt="MRUA">
+            </div>
+            <button onclick="goTop()" id="goTopBtn" title="Go to top">Ir arriba</button>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+    
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("goTopBtn").style.display = "block";
+        } else {
+          document.getElementById("goTopBtn").style.display = "none";
+        }
+      }
+    
+      function goTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+        </section>
+        <section id="pendiente">
+            <h2>Pendiente</h2>
+            <p>La pendiente de las gráficas posición-tiempo indica la velocidad del objeto en movimiento. Una pendiente constante sugiere velocidad constante, mientras que una pendiente cambiante representa aceleración o desaceleración. En las gráficas velocidad-tiempo, la pendiente revela la aceleración del objeto. Una pendiente constante señala aceleración constante, siendo positiva para aceleración y negativa para desaceleración. La interpretación de las gráficas sin símbolos es clave para comprender el movimiento de un objeto en relación con el tiempo. </p>
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\pendiente.jpg" alt="Pendiente">
+
+                <button onclick="goTop()" id="goTopBtn" title="Go to top">Ir arriba</button>
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("goTopBtn").style.display = "block";
+    } else {
+      document.getElementById("goTopBtn").style.display = "none";
+    }
+  }
+
+  function goTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+            </div>
+        </section>
+        <section id="velocidad-instantanea">
+            <h2>Velocidad Instantánea</h2>
+            <p>La velocidad instantánea en cinemática es la rapidez con la que un objeto se está moviendo en un momento particular. Es como medir la velocidad en un instante específico sin tener en cuenta el tiempo que llevó llegar a ese punto. Es una especie de "foto" de la velocidad en un momento preciso, sin preocuparse por el pasado o el futuro del movimiento. Imagina que estás midiendo la velocidad de un automóvil en un solo instante, sin considerar su velocidad anterior o posterior. Eso es esencialmente lo que se entiende por velocidad instantánea.</p>
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\maxresdefault.jpg" alt="Velocidad Instantánea">
+            </div>
+            <button onclick="goTop()" id="goTopBtn" title="Go to top">Ir arriba</button>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+    
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("goTopBtn").style.display = "block";
+        } else {
+          document.getElementById("goTopBtn").style.display = "none";
+        }
+      }
+    
+      function goTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+        </section>
+        <section id="tiro-parabolico">
+            <h2>Tiro Parabólico</h2>
+            <p>El tiro parabólico es un tipo de movimiento en el que un objeto es lanzado en un ángulo con respecto a la horizontal y sigue una trayectoria en forma de parábola. Imagina lanzar una pelota en un campo de fútbol: sube, alcanza su altura máxima y luego desciende en una trayectoria curva hasta el suelo. En este tipo de movimiento, la velocidad inicial y el ángulo de lanzamiento son cruciales. Si lanzas con más fuerza, la pelota alcanza una altura mayor; si cambias el ángulo, la trayectoria se modifica. No hay fórmulas específicas aquí, pero el tiro parabólico es una combinación de movimiento horizontal uniforme y movimiento vertical uniformemente acelerado. En resumen, el tiro parabólico describe el movimiento de un objeto lanzado en un ángulo, siguiendo una trayectoria curva característica. La velocidad inicial y el ángulo determinan la forma de la parábola.</p>
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\Tiro parabolico.jpg" alt="Tiro Parabólico">
+
+                <button onclick="goTop()" id="goTopBtn" title="Go to top">Ir arriba</button>
+            </div>
+
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("goTopBtn").style.display = "block";
+    } else {
+      document.getElementById("goTopBtn").style.display = "none";
+    }
+  }
+
+  function goTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+           
+        </section>
+        <section id="leyes-de-newton">
+            <h2>Leyes de Newton</h2>
+            <p>Las Leyes de Newton, también conocidas como Leyes del Movimiento, son tres principios fundamentales que constituyen la base de la mecánica clásica, una rama esencial de la física. Las Leyes de Newton son tres principios fundamentales que describen cómo se mueven los objetos:  </p>
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\leyes-de-newton-og.jpg" alt="Leyes de Newton">
+            </div>
+            <button onclick="goTop()" id="goTopBtn" title="Go to top">Ir arriba</button>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+    
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("goTopBtn").style.display = "block";
+        } else {
+          document.getElementById("goTopBtn").style.display = "none";
+        }
+      }
+    
+      function goTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+            <p>1.Ley de la Inercia: Un objeto en reposo permanece en reposo, y un objeto en movimiento continúa moviéndose a una velocidad constante, a menos que una fuerza externa actúe sobre él. Los objetos tienden a mantener su estado actual de movimiento.</p>
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\Primera ley de newton.jpg" alt="Primera ley de Newton">
+            </div>
+            <button onclick="goTop()" id="goTopBtn" title="Go to top">Ir arriba</button>
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("goTopBtn").style.display = "block";
+    } else {
+      document.getElementById("goTopBtn").style.display = "none";
+    }
+  }
+
+  function goTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+            <p>2. Ley de la Fuerza y la Aceleración: La aceleración de un objeto depende de la fuerza que actúa sobre él y de su masa. Si aplicas más fuerza, el objeto acelerará más; si el objeto es más pesado, la aceleración será menor. </p>
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\Segunda ley de newton.jpg" alt="Segunda ley de Newton">
+            </div>
+            <p>3. Ley de Acción y Reacción: Por cada acción, hay una reacción igual y opuesta. Si un objeto A ejerce una fuerza sobre un objeto B, entonces el objeto B ejerce una fuerza de igual magnitud, pero en la dirección opuesta sobre el objeto A. </p>
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\Tercera ley de Newton.jpg" alt="Tercera ley de Newton">
+            </div>
+            <button onclick="goTop()" id="goTopBtn" title="Go to top">Ir arriba</button>
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("goTopBtn").style.display = "block";
+    } else {
+      document.getElementById("goTopBtn").style.display = "none";
+    }
+  }
+
+  function goTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+            </section>
+        <section id="rozamiento">
+            <h2>Rozamiento</h2>
+            <p>Las leyes del rozamiento nos dicen cómo se opone el rozamiento al movimiento de los objetos:</p>
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\Fuerza rozamiento.jpg" alt="Rozamiento">
+            </div>
+            
+            <p>1.Existencia del Rozamiento: Cuando un objeto se desliza sobre una superficie, experimenta una fuerza de rozamiento que se opone a su movimiento. Esta fuerza actúa en la dirección opuesta al movimiento relativo entre las superficies en contacto.</p>
+            <p>2. Dependencia del Tipo de Superficie: La cantidad de fuerza de rozamiento depende del tipo de superficies en contacto y de la fuerza con la que están presionadas entre sí. Superficies ásperas tienden a tener más rozamiento que superficies lisas.</p>
+            <p>3. Independencia de la Velocidad: A diferencia de otras fuerzas, como la resistencia del aire, la fuerza de rozamiento no depende de la velocidad del objeto. Esto significa que la fuerza de rozamiento es aproximadamente constante, una vez que el objeto ha superado la fuerza de arranque inicial.</p>
+        </section>
+        <button onclick="goTop()" id="goTopBtn" title="Go to top">Ir arriba</button>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+    
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("goTopBtn").style.display = "block";
+        } else {
+          document.getElementById("goTopBtn").style.display = "none";
+        }
+      }
+    
+      function goTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+        <section id="fuerzas">
+            <h2>Fuerzas</h2>
+            <p>Las fuerzas son interacciones que pueden cambiar el estado de movimiento de un objeto. Pueden ser de diferentes tipos, como la fuerza gravitatoria, la fuerza eléctrica, la fuerza magnética, entre otras.</p>
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\Fuerzas.jpg" alt="Fuerzas">
+            </div>
+            <button onclick="goTop()" id="goTopBtn" title="Go to top">Ir arriba</button>
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("goTopBtn").style.display = "block";
+    } else {
+      document.getElementById("goTopBtn").style.display = "none";
+    }
+  }
+
+  function goTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+        </section>
+        <section id="fuerza de friccion estatica">
+                <h2>Fuerza de friccion estatica</h2>
+            <p>Es una fuerza entre dos superficies que impide que estas se deslicen o resbalen una sobre la otra.</p>
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\fuerza-de-friccion-estatica.jpg" alt="Friccion estatica">
+            </div>
+        </section>
+        <section id="fuerza de friccion cinetica">
+            <h2>Fuerza de friccion cinetica</h2>
+        <p>Es una fuerza uniforme dirigida a lo largo de la dirección de movimiento relativo entre las superficies.</p>
+        <div class="img-container">
+            <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\Friccion cinetica.jpg" alt="Friccion cinetica">
+        </div>
+        <button onclick="goTop()" id="goTopBtn" title="Go to top">Ir arriba</button>
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("goTopBtn").style.display = "block";
+    } else {
+      document.getElementById("goTopBtn").style.display = "none";
+    }
+  }
+
+  function goTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+        </section>
+        <section id="fuerza normal">
+            <h2>Fuerza normal</h2>
+        <p>También conocida como reacción normal (N) es una fuerza que ejerce una superficie sobre un cuerpo que se encuentra apoyado en ella. Su dirección es perpendicular a la superficie de apoyo y su sentido es hacia afuera</p>
+        <div class="img-container">
+            <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\Fuerza normal.jpg" alt="Fuerza normal">
+        </div>
+        </section>
+        <section id="ley-gravitacional">
+            <h2>Ley Gravitacional</h2>
+            <p>La Ley Gravitacional, también conocida como Ley de Gravitación Universal, fue formulada por Sir Isaac Newton en el siglo XVII y es uno de los pilares fundamentales de la física clásica. La ley describe la atracción gravitatoria entre dos objetos con masa y establece cómo esta fuerza depende de la masa de los objetos y de la distancia que los separa.</p>
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\Ley gravitacional.jpg" alt="Ley Gravitacional"> <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\Fuerza gravitacional1.jpg">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\Fuerza gravitacional2.jpg">
+            </div>
+            <button onclick="goTop()" id="goTopBtn" title="Go to top">Ir arriba</button>
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("goTopBtn").style.display = "block";
+    } else {
+      document.getElementById("goTopBtn").style.display = "none";
+    }
+  }
+
+  function goTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+        </section>
+        <section id="cantidad-movimiento">
+            <h2>Cantidad de Movimiento</h2>
+            <p>La cantidad de movimiento, también conocida como momento lineal, es una magnitud física fundamental en la mecánica clásica. Representa la cantidad de movimiento que un objeto posee debido a su masa y su velocidad</p>
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\Cantidad de movimiento.jpg" alt="Cantidad de Movimiento">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\Cantidad de mov.jpg">
+            </div>
+            <button onclick="goTop()" id="goTopBtn" title="Go to top">Ir arriba</button>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+    
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("goTopBtn").style.display = "block";
+        } else {
+          document.getElementById("goTopBtn").style.display = "none";
+        }
+      }
+    
+      function goTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+        </section>
+        <section id="colision">
+            <h2>Colisión</h2>
+            <p>Una colisión se refiere a la interacción entre dos o más objetos en un intervalo de tiempo muy corto. Estas interacciones pueden involucrar cambios en la velocidad, dirección o energía cinética de los objetos. Las colisiones se clasifican comúnmente en dos tipos: colisiones elásticas e inelásticas</p>
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\Colision.jpg" alt="Colisión">
+            </div>   
+            <button onclick="goTop()" id="goTopBtn" title="Go to top">Ir arriba</button>
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("goTopBtn").style.display = "block";
+    } else {
+      document.getElementById("goTopBtn").style.display = "none";
+    }
+  }
+
+  function goTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+        </section>
+        <section id="colision elastica">
+            <h2>Colision elastica</h2>
+            <p>En una colisión elástica, la cantidad total de movimiento y la energía cinética se conservan. Después de la colisión, los objetos involucrados pueden cambiar sus velocidades, pero la energía total del sistema se mantiene constante. Un ejemplo clásico de una colisión elástica es la colisión entre dos bolas de billar perfectamente elásticas.</p>
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\Colision elastica.jpg" alt="Colision elastica">
+            </div>
+        </section>
+        <section id="colision inelástica">
+            <h2>Colision inelástica</h2>
+            <p>En una colisión inelástica, la cantidad total de movimiento se conserva, pero la energía cinética total puede no ser constante. Después de la colisión, los objetos pueden unirse y moverse juntos como un solo objeto. Un ejemplo común de una colisión inelástica es cuando dos automóviles chocan y se quedan pegados después del impacto</p>
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\Colision inelastica.jpg" alt="Colision inelastica">
+            </div>
+            <button onclick="goTop()" id="goTopBtn" title="Go to top">Ir arriba</button>
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("goTopBtn").style.display = "block";
+    } else {
+      document.getElementById("goTopBtn").style.display = "none";
+    }
+  }
+
+  function goTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+        </section>
+        <section id="impulso">
+            <h2>Impulso</h2>
+            <p>El impulso es una magnitud vectorial que describe la variación de la cantidad de movimiento de un objeto en un intervalo de tiempo. La cantidad de movimiento de un objeto es el producto de su masa por su velocidad, y el impulso se define como el cambio en la cantidad de movimiento</p>
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\Impulso.jpg" alt="Impulso"> <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\Impulso mecanico.jpg">
+            </div>
+            <button onclick="goTop()" id="goTopBtn" title="Go to top">Ir arriba</button>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+    
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("goTopBtn").style.display = "block";
+        } else {
+          document.getElementById("goTopBtn").style.display = "none";
+        }
+      }
+    
+      function goTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+        </section>
+        <section id="rotacion">
+            <h2>Rotación</h2>
+            <p>Es el movimiento de cambio de orientación de un cuerpo o un sistema de referencia de forma que una línea o un punto permanece fijo. La rotación de un cuerpo se representa mediante un operador que afecta a un conjunto de puntos o vectores.</p>
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\Rotacion.jpg" alt="Rotación">
+            </div>
+            <button onclick="goTop()" id="goTopBtn" title="Go to top">Ir arriba</button>
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("goTopBtn").style.display = "block";
+    } else {
+      document.getElementById("goTopBtn").style.display = "none";
+    }
+  }
+
+  function goTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+        </section>
+        <section id="traslacion">
+            <h2>Traslación</h2>
+            <p>La traslación es el movimiento de un objeto a lo largo de una trayectoria rectilínea. No implica rotación del objeto. Desplaza cada punto de una figura o espacio la misma cantidad en una determinada dirección. Una reflexión respecto un eje seguida de otra reflexión respecto a otro eje paralelo al primero es equivalente a una traslación.</p>
+            <div class="img-container">
+                <img src="C:\Users\javie\OneDrive\Escritorio\Proyecto cinemática pagina\Traslacion.jpg" alt="Traslación">
+            </div>
+        </section>
+        <section id="bibliografia">
+            <button onclick="goTop()" id="goTopBtn" title="Go to top">Ir arriba</button>
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("goTopBtn").style.display = "block";
+    } else {
+      document.getElementById("goTopBtn").style.display = "none";
+    }
+  }
+
+  function goTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+            
+            <h2>Bibliografia</h2>
+            <p>https://concepto.de/cinematica/</p> <p>https://www.ingenierizando.com/cinematica/movimiento-parabolico-o-tiro-parabolico/</p> <p>https://estudyando.com/cinematica-desplazamiento-velocidad-y-aceleracion/</p> <p>https://www.ingenierizando.com/cinematica/rapidez-promedio/</p>
+        </section>
+        <!-- Continuar agregando más secciones con información y sus imágenes -->
+    </div>
+    <div class="go-top-container">
+        <div class="go-top-button">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+    </div>
+</body>
+</html>
